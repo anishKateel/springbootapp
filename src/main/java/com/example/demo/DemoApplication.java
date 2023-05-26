@@ -13,7 +13,7 @@ public class DemoApplication {
 	
 	@GetMapping("/")
 	public String getMessage() {
-		return "Hurray Bharath!! openshift deployment is successful";
+		return "Hurray girish!! openshift deployment is successful";
 	}
 	
 	@PostMapping("/{name}")
